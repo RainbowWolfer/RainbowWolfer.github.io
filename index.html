@@ -7,6 +7,7 @@
     <title>Rainbow Wolfer</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src='main.js'></script>
 </head>
 
@@ -27,7 +28,8 @@
                     </p>
                     <p class="Description">
                         <a>I make</a>
-                        <a class="github_link" href="https://github.com/RainbowWolfer">&rarr; contents &larr;</a>
+                        <a target="_blank" rel="noopener noreferrer" class="github_link"
+                            href="https://github.com/RainbowWolfer">&rarr; contents &larr;</a>
                         <a>on the Internet</a>
                     </p>
                     <h2>About ME</h2>
@@ -50,14 +52,251 @@
                         <li>An Animator</li>
                         <li>A Full Stack Indie Games Developer</li>
                     </ul>
+                    <div class="center_div">
+                        <div class="socials">
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/rainbowwolfer"
+                                class="fa fa-twitter"></a>
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="https://www.reddit.com/user/RainbowWolfer" class="fa fa-reddit"></a>
+                        </div>
+                    </div>
                 </div>
             </article>
         </div>
         <div id="right-half">
             <article id="right_article">
                 <h1>⚒️ Projects History 🛠️</h1>
-                <div>
-                    <iframe src="projects.html"></iframe>
+                <div id="scroll_div" style="overflow-y: scroll; height: 95%;">
+                    <div class="projects">
+                        <!-- <h1 class="title">Currently Working-On</h1>
+                        <ul class="wtree">
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a></a>
+                                        </div>
+                                        <div class="detail">
+                                            <a></a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul> -->
+                        <!--
+                            Finished
+                            Recently Working On
+                            Consider Keep Working
+                            Not Finished & Flagged
+                        -->
+                        <h1 class="title">2022</h1>
+                        <ul class="wtree">
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🔒]
+                                                <span class="tooltiptext">Finished</span>
+                                            </a>
+                                            <a>LYLG</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A UWP application for university services ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [⚙️]
+                                                <span class="tooltiptext">Recently Working On</span>
+                                            </a>
+                                            <a>Mind Map</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A standard mindmap application using WPF ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🗓️]
+                                                <span class="tooltiptext">Consider Keep Working</span>
+                                            </a>
+                                            <a>Codes Analyzer</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A UWP tool to count lines of codes in a project]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul>
+                        <h1 class="title">2021</h1>
+                        <ul class="wtree">
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [⚙️]
+                                                <span class="tooltiptext">Recently Working On</span>
+                                            </a>
+                                            <a>E1547 Browser</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A UWP Browser For E926/E621 ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🗓️]
+                                                <span class="tooltiptext">Consider Keep Working</span>
+                                            </a>
+                                            <a>Tower Defence</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A Unity game by random generated map ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🗓️]
+                                                <span class="tooltiptext">Consider Keep Working</span>
+                                            </a>
+                                            <a>CARDS</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A Unity game mixing cards & rogue-likes ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🔒]
+                                                <span class="tooltiptext">Finished</span>
+                                            </a>
+                                            <a>Desktop Immersive Clock</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A UWP Clock with cool style ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🚩]
+                                                <span class="tooltiptext">Not Finished & Flagged</span>
+                                            </a>
+                                            <a>Chinese Chess</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ First attempt of Chess AI & TCP connection ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul>
+                        <h1 class="title">2020</h1>
+                        <ul class="wtree">
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🚩]
+                                                <span class="tooltiptext">Not Finished & Flagged</span>
+                                            </a>
+                                            <a>FrontLine</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A First Person Shooter using Unity with AI ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🔒]
+                                                <span class="tooltiptext">Finished</span>
+                                            </a>
+                                            <a>Equestria Daily CN</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A UWP Browser of equestriacn.com ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul>
+                        <h1 class="title">2019</h1>
+                        <ul class="wtree">
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🔒]
+                                                <span class="tooltiptext">Finished</span>
+                                            </a>
+                                            <a>Reversi</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A normal Unity chess game ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul>
+                        <h1 class="title">2018</h1>
+                        <ul class="wtree">
+                            <li>
+                                <span>
+                                    <div class="line">
+                                        <div class="name_project">
+                                            <a class="tooltip">
+                                                [🔒]
+                                                <span class="tooltiptext">Finished</span>
+                                            </a>
+                                            <a>Mine-Sweeper</a>
+                                        </div>
+                                        <div class="detail">
+                                            <a>[ A standard Mine-Sweeper with cool effects ]</a>
+                                        </div>
+                                    </div>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </article>
         </div>
