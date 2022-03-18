@@ -80,8 +80,12 @@ h1 {
 }
 
 .NameTitle {
-	font-size: 40px;
+	font-size: 0;
 	text-align: right;
+}
+
+.NameTitle a{
+	font-size: 40px;
 }
 
 .Description {
