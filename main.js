@@ -38,3 +38,47 @@ rightHalf.addEventListener('mouseover', () => {
     }
 }, false);
 
+function onProjectClick(event) {
+    let split = event.split('-');
+    let name = split[1];
+    switch (name) {
+        case "MineSweeper":
+            window.open("https://github.com/RainbowWolfer/Mine-Sweeper", "_blank");
+            break;
+        case "Reversi":
+            // window.open("", "_blank");
+            break;
+        case "EquestiaCN":
+            window.open("https://github.com/RainbowWolfer/EquestriaCN_Test", "_blank");
+            break;
+        case "FronLine":
+            window.open("https://github.com/RainbowWolfer/FrontLine", "_blank");
+            break;
+        case "ChineseChess":
+            window.open("https://github.com/RainbowWolfer/ChineseChess2", "_blank");
+            break;
+        case "DesktopImmersiveClock":
+            window.open("https://github.com/RainbowWolfer/DesktopImmersiveClock", "_blank");
+            break;
+        case "CARDS":
+            // window.open("", "_blank");
+            break;
+        case "TowerDefence":
+            window.open("https://github.com/RainbowWolfer/TowerDefence", "_blank");
+            break;
+        case "E1547":
+            window.open("https://github.com/RainbowWolfer/E621Downloader", "_blank");
+            break;
+        case "CodesAnalyzer":
+            window.open("https://github.com/RainbowWolfer/CodeAnalyze", "_blank");
+            break;
+        case "MindMap":
+            window.open("https://github.com/RainbowWolfer/MindMap", "_blank");
+            break;
+        case "LYLG":
+            // window.open("", "_blank");
+            break;
+        default:
+            break;
+    }
+}
