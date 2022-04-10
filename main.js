@@ -66,7 +66,7 @@ function onProjectClick(event) {
         case "TowerDefence":
             window.open("https://github.com/RainbowWolfer/TowerDefence", "_blank");
             break;
-        case "E1547":
+        case "E621":
             window.open("https://github.com/RainbowWolfer/E621Downloader", "_blank");
             break;
         case "CodesAnalyzer":
